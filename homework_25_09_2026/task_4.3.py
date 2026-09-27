@@ -1,6 +1,11 @@
-l = [6, 3, 7]
-if 3 <= len(l) <= 10:
-    new_l = [l[0], l[2], l[-2]]
-    print(new_l)
-else:
-    print("Не вірна довжина списку!")
+import random
+
+list_length = random.randint(3, 10)
+main_list = []
+for i in range(list_length):
+    number = random.randint(1, 10)
+    main_list.append(number)
+
+new_list = [main_list[0], main_list[2], main_list[-2]]
+print(main_list)
+print(new_list)
