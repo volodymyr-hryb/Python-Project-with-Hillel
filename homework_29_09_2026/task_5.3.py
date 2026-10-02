@@ -10,6 +10,3 @@ if len(new_name) != 0:
     print(hashtag[:140])
 else:
     print("Рядок пустий!")
-
-
-
